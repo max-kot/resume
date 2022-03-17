@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Montserrat", sans-serif;
+	background-color: #f1f1f1;
+	color: #0f141e;
+}
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+.bold {
+	font-weight: 700;
+}
+.italic {
+	font-style: italic;
+}
+
+.card-info {
+	padding: 20px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.card-info .avatar {
+	border-radius: 50%;
+	margin-bottom: 10px;
+	border: 2px solid #252525;
+	box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.card-info h1 {
+	margin-bottom: 15px;
+}
+
+.card-info p {
+	margin-bottom: 10px;
+	color: rgba(15, 20, 30, 0.7);
+}
+
+.card-info h3 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.card-info a {
+	color: rgba(15, 20, 30, 0.8);
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.card-box {
+	background: rgba(102, 121, 167, 0.5);
+	margin: 15px 0;
+	padding: 25px;
+	border: 2px solid #252525;
+	border-radius: 8px;
+}
+.purple {
+	background: rgba(146, 102, 167, 0.5);
+}
+.green {
+	background: rgba(104, 167, 102, 0.5);
+}
+
+.card-box h2 {
+	margin-bottom: 15px;
+}
