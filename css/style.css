@@ -240,3 +240,23 @@ textarea {
 		display: block;
 	}
 }
+@media (max-width: 489px) {
+	.container {
+		padding: 0;
+	}
+	.resume {
+		padding: 0;
+	}
+	.expirience {
+		position: relative;
+		height: 450px;
+	}
+	.course {
+		position: relative;
+		height: 2900px;
+	}
+	.table {
+		position: absolute;
+		left: 0;
+	}
+}
