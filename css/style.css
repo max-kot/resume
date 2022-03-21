@@ -35,7 +35,7 @@ a {
 	font-weight: 700;
 	text-decoration: none;
 	padding: 10px;
-	border-radius: 4px;
+	border-radius: 4px 20px 4px 20px;
 	display: inline-block;
 	border: 5px solid #203944;
 }
@@ -85,6 +85,7 @@ a:hover {
 
 .image {
 	margin-right: 15px;
+	width: 40%;
 }
 .avatar {
 	border-radius: 50%;
@@ -92,7 +93,9 @@ a:hover {
 	border: 5px solid #203944;
 	max-width: 100%;
 }
-
+.descr {
+	width: 60%;
+}
 .text {
 	width: 90%;
 	padding: 15px 15px 5px 15px;
@@ -134,7 +137,6 @@ a:hover {
 	padding: 10px;
 	border-radius: 4px;
 	text-align: center;
-	font-size: 20px;
 }
 .table input {
 	width: 25px;
@@ -148,6 +150,12 @@ a:hover {
 }
 .course a {
 	margin-bottom: 15px;
+}
+.course .table {
+	width: 100%;
+}
+.course .table td {
+	text-align: left;
 }
 .contact {
 	border-radius: 8px 8px 70px 8px;
@@ -211,7 +219,7 @@ textarea {
 	font-weight: 700;
 	text-decoration: none;
 	padding: 10px;
-	border-radius: 4px;
+	border-radius: 4px 20px 4px 20px;
 	display: inline-block;
 	border: 5px solid #203944;
 	text-transform: uppercase;
@@ -227,6 +235,12 @@ textarea {
 	.info {
 		display: block;
 	}
+	.image {
+		width: 100%;
+	}
+	.descr {
+		width: 100%;
+	}
 	.avatar {
 	}
 	.about {
@@ -240,23 +254,39 @@ textarea {
 		display: block;
 	}
 }
-@media (max-width: 489px) {
-	.container {
-		padding: 0;
+@media (max-width: 495px) {
+	h1 {
+		font-size: 24px;
+	}
+	p {
+		font-size: 16px;
+	}
+	h2 {
+		font-size: 22px;
 	}
 	.resume {
-		padding: 0;
+		padding: 10px;
 	}
-	.expirience {
-		position: relative;
-		height: 450px;
+	.card {
+		padding: 5px;
 	}
-	.course {
-		position: relative;
-		height: 2900px;
+	.hobbies li {
+		font-size: 14px;
 	}
 	.table {
-		position: absolute;
-		left: 0;
+		max-width: 100%;
+		padding: 0;
+	}
+	.table th {
+		padding: 2px;
+		font-size: 14px;
+	}
+	.table td {
+		padding: 2px;
+		font-size: 14px;
+	}
+	.table input {
+		width: 15px;
+		height: 15px;
 	}
 }
